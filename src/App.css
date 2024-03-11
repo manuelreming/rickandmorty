@@ -1,0 +1,29 @@
+.app{
+    background-color: #073138;
+    color: white;
+}
+.conteiner-resident {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+.app__container{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.app__image--background{
+    width: 100%;
+    height: auto;
+    max-height: 100%; 
+    object-fit: cover;
+}
+.app__image--label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
